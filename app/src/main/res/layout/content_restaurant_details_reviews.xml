@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/restaurant_details_review_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/content_small_margin"
+        android:textSize="@dimen/view_holder_text_size"
+        android:text="@string/review_highlights" />
+
+    <!-- Filler Text -->
+    <com.lchng.ripple.sampleyelpapp.restaurantDetails.components.RestaurantReviewView
+        android:id="@+id/restaurant_details_review_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.lchng.ripple.sampleyelpapp.restaurantDetails.components.RestaurantReviewView>
+
+    <com.lchng.ripple.sampleyelpapp.restaurantDetails.components.RestaurantReviewView
+        android:id="@+id/restaurant_details_review_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.lchng.ripple.sampleyelpapp.restaurantDetails.components.RestaurantReviewView>
+
+    <com.lchng.ripple.sampleyelpapp.restaurantDetails.components.RestaurantReviewView
+        android:id="@+id/restaurant_details_review_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.lchng.ripple.sampleyelpapp.restaurantDetails.components.RestaurantReviewView>
+</LinearLayout>

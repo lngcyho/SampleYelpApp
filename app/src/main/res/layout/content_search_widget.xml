@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/food_category_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/food_category"
+        android:inputType="text"
+        android:padding="@dimen/content_margin"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableLeft="@android:drawable/ic_menu_search"/>
+
+    <EditText
+        android:id="@+id/location_edit_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location"
+        android:inputType="text"
+        android:padding="@dimen/content_margin"
+        android:drawablePadding="@dimen/drawable_padding"
+        android:drawableLeft="@android:drawable/ic_menu_mylocation"/>
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Search"
+        android:paddingLeft="@dimen/content_large_margin"
+        android:paddingRight="@dimen/content_large_margin"
+        android:paddingTop="@dimen/content_small_margin"
+        android:paddingBottom="@dimen/content_small_margin"/>
+</LinearLayout >

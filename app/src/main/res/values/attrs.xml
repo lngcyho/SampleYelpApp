@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RestaurantReviewView">
+        <attr name="profileImageUrl" format="string"></attr>
+        <attr name="profileName" format="string"></attr>
+        <attr name="reviewRating" format="string"></attr>
+        <attr name="reviewComment" format="string"></attr>
+    </declare-styleable>
+</resources>

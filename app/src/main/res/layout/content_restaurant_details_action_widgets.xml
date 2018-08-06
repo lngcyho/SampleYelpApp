@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/restaurant_detail_get_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_direction"
+        android:clickable="true"
+        android:drawableLeft="@android:drawable/ic_menu_directions"/>
+
+    <TextView
+        android:id="@+id/restaurant_detail_call_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_us"
+        android:clickable="true"
+        android:drawableLeft="@android:drawable/ic_menu_call"/>
+
+    <TextView
+        android:id="@+id/restaurant_detail_more_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more_info"
+        android:clickable="true"
+        android:drawableLeft="@android:drawable/ic_menu_info_details"/>
+
+</merge>
